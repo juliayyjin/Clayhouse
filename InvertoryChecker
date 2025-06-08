@@ -1,0 +1,19 @@
+
+using UnityEngine;
+using UnityEngine.UI;
+using System.Collections.Generic;
+
+public class InventoryChecker : MonoBehaviour {
+    [SerializeField] private PlayerData playerData;
+    [SerializeField] private UIBUTTON targetButton;
+
+    void Update() {
+        // 检查是否有可用的原材料（根据最新枚举名称）
+        bool hasRawMaterials = playerData.inventory.Exists(item => 
+            item.type == PlayerData.ItemType.RawMaterial && 
+            item.status == PlayerData.ItemStatus.InProgress
+        );
+        
+        targetButton.SetInteractable(hasRawMaterials);
+    }
+}
