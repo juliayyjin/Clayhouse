@@ -1,4 +1,3 @@
-
 # Clayhouse
 
 ## Project Overview and Goals
@@ -23,7 +22,6 @@ Clayhouse is a mobile building game where players design and construct tiny hous
 4. Click **Build** to generate an Xcode project.
 5. Open the project in Xcode and build to a device or archive for submission.
 
-## Basic Gameplay / Controls+
 * **Tap** to place or interact with building pieces.
 * **Drag** to rotate or move objects.
 * Use on-screen buttons to switch tools or undo actions.
