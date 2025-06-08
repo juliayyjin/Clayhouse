@@ -1,5 +1,7 @@
 # Clayhouse
 
+=======
+
 ## Project Overview and Goals
 Clayhouse is a mobile building game where players design and construct tiny houses out of virtual clay. The project aims to provide a fun, tactile puzzle experience with simple controls that are easy to learn on touch devices.
 
